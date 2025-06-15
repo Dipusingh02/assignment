@@ -1,12 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Add a Task: Enter some text into the input box and click "Add" to add it. Confirm your task is listed in task list.
+Complete a Task: Click on a task text to complete the task. Confirm it is completed with the line-through style.
+Remove Task: Click on the "Delete" button to remove the task. Confirm the task is removed from the list.
+Filter Tasks: Utilize the filter buttons to filter between All, Completed, and Pending. Confirm the appropriate tasks are shown in the task list.
+Sort Tasks: Utilize the sort dropdown to sort between Newest First and Oldest First. Confirm the tasks are sorted appropriately.
